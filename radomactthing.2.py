@@ -3,7 +3,7 @@ from random import randint
 
 def randomacts(namesfile='names.txt'):
     '''This generates partners for an office Random Acts of Kindness exchange.
-    Takes as an argument a textfile with a list of names. Randomly mastchs
+    Takes as an argument a textfile with a list of names. Randomly matches
     each participant with a partner. Makes a master list of partners, and
     then generates a text file to be emailed to each participant with their
     partner's name.'''
